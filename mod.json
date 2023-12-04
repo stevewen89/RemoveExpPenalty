@@ -2,7 +2,7 @@
   "name": "Remove Level 70+ Penalty",
   "description": "Removes the experience penalty from level 70-99.",
   "author": "stevewen89",
-  "website": "https://www.nexusmods.com/diablo2resurrected/mods/",
+  "website": "https://github.com/stevewen89/RemoveExpPenalty",
   "version": "1.1",
   "config": [
     {
