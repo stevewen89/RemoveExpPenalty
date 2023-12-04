@@ -1,0 +1,25 @@
+{
+  "name": "Remove Level 70+ Penalty",
+  "description": "Removes the experience penalty from level 70-99.",
+  "author": "stevewen89",
+  "website": "https://www.nexusmods.com/diablo2resurrected/mods/",
+  "version": "1.1",
+  "config": [
+    {
+      "id": "removeexppenalty",
+      "type": "checkbox",
+      "name": "Disable Experience Penalty",
+      "description": "Disable Experience Penalty for characters above level 70.",
+      "defaultValue": true
+    },
+    {
+      "id": "multiplyexp",
+      "type": "number",
+      "name": "Experience Multiplier",
+      "description": "Experience multiplier, 1 = vanilla, 2 = double experience, up to 5 times. Can be stacked with removing experience penalty for characters over level 70.",
+      "defaultValue": 1,
+      "minValue": 1,
+      "maxValue": 5
+    }
+  ]
+}
